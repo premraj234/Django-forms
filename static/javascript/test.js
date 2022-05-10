@@ -16,7 +16,7 @@ components.forEach(component=>{
    component.addEventListener('input',()=>{
        let id_span = component.parentElement.children[2];
        if(component.value === "" ){
-           id_span.innerHTML="feild can't be empty";
+           id_span.innerHTML="fields can't be empty";
         }else{
             id_span.textContent="";
         }
@@ -43,7 +43,7 @@ const date = new Date();
 const year = date.getFullYear(); //2022
 
 
-//validating input fields
+// //validating input fields
 
 Register.addEventListener('click',()=>{
     //validating passwords
@@ -74,7 +74,19 @@ Register.addEventListener('click',()=>{
     
 })
 
-
+// function showError(input, message) {  
+//     const formControl = input.parentElement;  
+//     formControl.className = "input error";  
+//     const small = formControl.querySelector("small");  
+//     small.innerText = message;  
+//    }  
+//    //Show Success message  
+//    function showSuccess(input) {  
+//     const formControl = input.parentElement;  
+//     formControl.classList.add("success");  
+//    }  
+//    //Check Required fields  
+   
 
 
 /**

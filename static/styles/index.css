@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+    background: linear-gradient(180deg,#FFf  ,#f83962) ;  
 margin:0px;
 padding:0px;
 
@@ -12,7 +12,7 @@ padding:0px;
 #box{
     max-width:650px;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
 }
 
 .span{
@@ -51,3 +51,4 @@ label{
 .blue{
     color:blue;
 }
+

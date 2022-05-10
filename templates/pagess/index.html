@@ -5,7 +5,7 @@
             <form method="POST" action="{% url 'index' %}" >
                 {% csrf_token %}
                 <div class="row py-4">
-                    <h3>Registration</h3>
+                    <h3 >Registration</h3>
                         <div class="col-sm-6">
                             <label for="FirstName" class="form-label">FirstName</label>
                             <input type="text" name="FirstName" id="FirstName" class="form-control" placeholder="Enter your FirstName">
@@ -50,7 +50,7 @@
                         
                         <div class="col-sm-4 pt-3 d-flex">
 
-                            <input type="submit" value="Register" class="btn btn-danger btn-block" id="Register">
+                            <input type="submit" value="Register" style="background-color:#FF4B2B; border: 1px solid #FF4B2B; border-radius: 3px; color: #FFFFFF;  font-size: 12px; font-weight: bold; width:100px" class="btn btn-danger btn-block" id="Register">
                                <!-- Register -->
                             </input>
                         </div>
@@ -70,8 +70,8 @@
                                     <label for="passowrd" class="form-label">Password</label>
                                     <input type="password" name="password" id="Login_password" class="form-control" placeholder="Enter your password">
                                 </div>
-                                <div class="col-sm-12 py-4">
-                                    <button class="btn btn-danger btn-block">Login</button>
+                                <div class="col-sm-12 py-4" >
+                                    <button class="btn btn-danger btn-block" style="background-color:#FF4B2B; border: 1px solid #FF4B2B; border-radius: 3px; color: #FFFFFF;  font-size: 12px; font-weight: bold; width:100px">Login</button>
                                 </div>       
                         </div>
                     </form>
